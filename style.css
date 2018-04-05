@@ -155,7 +155,7 @@ header {
 		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
-		/*position: absolute;*/
+		height: 950px;
 	}
 	#sidebar {
 		height: 50px;
@@ -174,20 +174,16 @@ header {
 		width: 25%;
 	}
 	.content {
-		/*height: auto;*/
  	  width: 100%;
  	  padding:0;
  	  display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		/*margin-bottom: 20px;*/
 	}
 	.main-image {
 		width: 100%;
 		height: 300px;
-		/*position: absolute;*/
-  	/*float: none;*/
   	margin-right: 0px;
 	}
 	.main-topic{
@@ -198,32 +194,31 @@ header {
 	.main-text {
 		height: 25px;
 		width: 94%;
-		/*margin-top: 5%;*/
 	}
 	.footer {
-		/*height: 200px;*/
-		position: absolute;
-/*		display: flex;
-	/*	flex-direction: column;
-		justify-content: space-around;
-		align-items: center;*/
 		width: 100%;
-		height: 70px;
+		height: 150px;
 		margin: 0;
 	}
 	.all-footer-boxes {
-		width: 98%;
+		height: 130px;
+		width: 96%;
 		display: flex;
 		flex-direction: column; 
 		justify-content: space-around;
 		align-items: center;
 	}
 	.footer-box {
-		height: 80%;
-		width: 98%;
+		height: 20%;
+		width: 97%;
 		display: flex;
 		flex-direction: column; 
 		justify-content:space-around;
-		align-items: center;
+		align-items: flex-start;
+	}
+	.footer-text {
+		height: 13px;
+		width: 55%;
+		margin-left: 5px;	
 	}
 }
